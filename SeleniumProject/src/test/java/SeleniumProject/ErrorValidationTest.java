@@ -20,7 +20,7 @@ public class ErrorValidationTest extends BaseTest {
 		LandingPage landingPage=initialization();
 		landingPage.LoginApplication("Testing.abc@gmail.com", "Test123");
 	
-		Assert.assertEquals("Incorrect email o password.", landingPage.geterrorLoginmsg());
+		Assert.assertEquals("Incorrect email or password.", landingPage.geterrorLoginmsg());
 
 	}
 
