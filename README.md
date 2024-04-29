@@ -1,1 +1,1 @@
-This is Java selenium handson project using TESTNG framework and Extenet report
+This is Java selenium handson project using TESTNG framework , Extenet report, GIT version control, Github, Genkins
