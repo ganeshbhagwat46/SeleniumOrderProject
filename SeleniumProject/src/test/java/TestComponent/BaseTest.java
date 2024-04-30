@@ -34,7 +34,8 @@ public class BaseTest {
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")
 				+ "//src//main//java//Resources//Globalparameter.properties");
 		prop.load(fis);
-		String browserName=prop.getProperty("browser");
+		System.getProperty("browser");
+		String browserName=System.getProperty("browser")!=null ? System.getProperty("browser") : prop.getProperty("browser");
 		if (browserName == null) {
             throw new IllegalArgumentException("Browser name is not provided in Globalparameter.properties");
         }

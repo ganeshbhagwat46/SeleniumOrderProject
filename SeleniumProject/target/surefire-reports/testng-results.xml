@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-30T11:53:22Z" name="Suite" finished-at="2024-04-30T11:54:20Z" duration-ms="58162">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:SeleniumProject.SubmitOrderTest@1b11171f]" name="submitOrder" class="SeleniumProject.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+      <group name="Errorhandling">
+        <method signature="ErrorValidationTest.loginerrorvalidation()[pri:0, instance:SeleniumProject.ErrorValidationTest@3012646b]" name="loginerrorvalidation" class="SeleniumProject.ErrorValidationTest"/>
+      </group> <!-- Errorhandling -->
+    </groups>
+    <test started-at="2024-04-30T11:53:22Z" name="ErrorValidationTest" finished-at="2024-04-30T11:54:02Z" duration-ms="40129">
+      <class name="SeleniumProject.ErrorValidationTest">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:SeleniumProject.ErrorValidationTest@3012646b]" started-at="2024-04-30T11:53:22Z" name="initialization" finished-at="2024-04-30T11:53:29Z" duration-ms="7180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="loginerrorvalidation()[pri:0, instance:SeleniumProject.ErrorValidationTest@3012646b]" started-at="2024-04-30T11:53:29Z" name="loginerrorvalidation" finished-at="2024-04-30T11:53:37Z" duration-ms="8229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginerrorvalidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumProject.ErrorValidationTest@3012646b]" started-at="2024-04-30T11:53:37Z" name="teardown" finished-at="2024-04-30T11:53:41Z" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:SeleniumProject.ErrorValidationTest@3012646b]" started-at="2024-04-30T11:53:41Z" name="initialization" finished-at="2024-04-30T11:53:47Z" duration-ms="6042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="submitOrder()[pri:0, instance:SeleniumProject.ErrorValidationTest@3012646b]" started-at="2024-04-30T11:53:47Z" name="submitOrder" finished-at="2024-04-30T11:53:56Z" duration-ms="9567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumProject.ErrorValidationTest@3012646b]" started-at="2024-04-30T11:53:56Z" name="teardown" finished-at="2024-04-30T11:54:02Z" duration-ms="5661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SeleniumProject.ErrorValidationTest -->
+    </test> <!-- ErrorValidationTest -->
+    <test started-at="2024-04-30T11:53:22Z" name="SubmitOrderTest" finished-at="2024-04-30T11:54:20Z" duration-ms="58162">
+      <class name="SeleniumProject.SubmitOrderTest">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:SeleniumProject.SubmitOrderTest@1b11171f]" started-at="2024-04-30T11:53:22Z" name="initialization" finished-at="2024-04-30T11:53:29Z" duration-ms="6948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SeleniumProject.SubmitOrderTest@1b11171f]" started-at="2024-04-30T11:53:29Z" name="submitOrder" data-provider="getdata" finished-at="2024-04-30T11:53:42Z" duration-ms="12662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@123, username=Testing.abc@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumProject.SubmitOrderTest@1b11171f]" started-at="2024-04-30T11:53:42Z" name="teardown" finished-at="2024-04-30T11:53:50Z" duration-ms="8522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:SeleniumProject.SubmitOrderTest@1b11171f]" started-at="2024-04-30T11:53:50Z" name="initialization" finished-at="2024-04-30T11:53:52Z" duration-ms="2055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SeleniumProject.SubmitOrderTest@1b11171f]" started-at="2024-04-30T11:53:52Z" name="submitOrder" data-provider="getdata" finished-at="2024-04-30T11:54:04Z" duration-ms="11825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, username=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumProject.SubmitOrderTest@1b11171f]" started-at="2024-04-30T11:54:04Z" name="teardown" finished-at="2024-04-30T11:54:11Z" duration-ms="7379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:SeleniumProject.SubmitOrderTest@1b11171f]" started-at="2024-04-30T11:54:11Z" name="initialization" finished-at="2024-04-30T11:54:16Z" duration-ms="4633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="Ordersummary()[pri:0, instance:SeleniumProject.SubmitOrderTest@1b11171f]" started-at="2024-04-30T11:54:16Z" name="Ordersummary" finished-at="2024-04-30T11:54:17Z" depends-on-methods="SeleniumProject.SubmitOrderTest.submitOrder" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ordersummary -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumProject.SubmitOrderTest@1b11171f]" started-at="2024-04-30T11:54:17Z" name="teardown" finished-at="2024-04-30T11:54:20Z" duration-ms="3229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SeleniumProject.SubmitOrderTest -->
+    </test> <!-- SubmitOrderTest -->
+  </suite> <!-- Suite -->
+</testng-results>
